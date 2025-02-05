@@ -6,6 +6,6 @@ metadata:
 spec:
   containers:
     - name: nginx
-      image: bitnami/nginx
+      image: b${IMAGE}
       ports:
         - containerPort: 8080
