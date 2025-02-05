@@ -141,7 +141,6 @@ jobs:
         insecure_skip_tls_verify: true
         namespace: ${{ env.OPENSHIFT_NAMESPACE }}
 
-    -
     - name: my deployment 
       run: |
         export IMAGE=${{ steps.push-image.outputs.registry-path }}
