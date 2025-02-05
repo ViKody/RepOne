@@ -8,6 +8,6 @@ spec:
     name: ghcr-pull-secret-new
   containers:
     - name: nginx
-      image: b${IMAGE}
+      image: ${IMAGE}
       ports:
         - containerPort: 8080
