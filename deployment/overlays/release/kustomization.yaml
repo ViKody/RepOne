@@ -4,15 +4,15 @@ patches:
 - path: configmap-patch.yaml
   target:
     kind: ConfigMap
-    name: mynewtest
+    name: repone
 - path: deployment-w-storage-patch.yaml
   target:
     kind: Deployment
-    name: mynewtest
+    name: repone
 - path: service-patch.yaml
   target:
     kind: Service
-    name: mynewtest
+    name: repone
 
 resources: 
 - ../../base
